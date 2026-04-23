@@ -4,9 +4,7 @@ import {Route, Routes} from 'react-router-dom'
 
 import Home from './pages/Home/Home'
 import Cart from './pages/Cart/Cart'
-import Order from './pages/Order/PlaceOrder'
-
-
+import PlaceOrder from './pages/Order/PlaceOrder'
 
 const App = () => {
   
@@ -22,7 +20,7 @@ const App = () => {
         <Route path="/" element={<Home></Home>} > </Route>
       
         <Route path='/Cart' element={<Cart/>} ></Route>
-        <Route path='/Order' element={<Order/>} />
+        <Route path='/Order' element={<PlaceOrder/>} />
         </Routes>
     </div>  
   )
