@@ -1,11 +1,11 @@
 .header{
     height: 34vw;
-    margin: 30px auto;
-    background: url('/header_img.png') no-repeat;
+    margin: 20px auto;
+    background: url('D:\Projects\Frontend\src\assets\header_img.png') no-repeat;
     background-size: contain;
     position : relative;
 }
-.header-contents{
+.header-contents {
 
     position: absolute;
     display: flex;
@@ -13,14 +13,14 @@
     align-items: start;
     gap: 1.5vw;
     max-width: 50%;
-    bottom:10%;
+    bottom:10px;
     left: 6vw;
     animation: fadeIn 3sec;
 
-}S
+}
 .header-contents h2{
     font-weight: 500;
-    color:white;
+    color:red;
     font-size:max(4,5vw,22px) ;
 
 }
@@ -31,7 +31,7 @@
 }
 .header-contents button{
     border:none;
-    color: rgb(36, 90, 138);
+    color: rgb(22, 133, 212);
     font-weight: 500;
     padding: 1vw 2.3vw;
     background-color: white;
